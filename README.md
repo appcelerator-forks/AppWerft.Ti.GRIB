@@ -7,5 +7,7 @@ JGRIB a Java program to read GRIB (GRid in Binary) files. GRIB is a gridded data
 ##Usage
 
 ```javascript
+var GRIB = require("de.appwerft.grib");
+var Grid = GRIB.createGrid(FILE);
 
 ```

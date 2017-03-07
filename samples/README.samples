@@ -1,0 +1,52 @@
+//-------------------------------------------------------------------
+// $Id: README.samples,v 1.1 2006/07/27 13:10:56 frv_peg Exp $
+//-------------------------------------------------------------------
+README.samples
+
+This diretory holds various samples of GRIB files. 
+Each file is used to test separate parts of the JGRIB library.
+
+Sample file: DMI_S05_T2_2006072606.006
+ - Website: http://ocean.dmi.dk/
+ - public available data: no
+ - Rotated Lat/Lon grid.
+ - Air temperature 2 meters above ground
+ - Base time: 2006-07-26 06:00 (UTC)
+ - Forecast time: 2006-07-26 12:00 (UTC)
+
+Sample file: SMHI_NS12_DSLM_200607260000+006H00M
+ - Website: http://www.smhi.se/
+ - public available data: no
+ - Lat/Lon grid
+ - BMS included
+ - Deviation of sea level from mean
+ - Base time: 2006-07-26 00:00 (UTC)
+ - Forecast time: 2006-07-26 06:00 (UTC)
+
+Sample file: GFS.T00Z.PGRBF00.TMP.850
+ - Website: http://www.emc.ncep.noaa.gov/modelinfo/
+ - public available data: yes
+ - ftp download: ftp://ftpprd.ncep.noaa.gov/pub/data/nccf/com/gfs/prod
+ - Lat/Lon grid
+ - Temperature at 850 hPa
+ - Base time: 2006-07-26 00:00 (UTC)
+ - Forecast time: 2006-07-27 12:00 (UTC)
+
+Sample file: NAM.T00Z.AWIP3D06.TM00.MSLET
+ - Website: http://www.emc.ncep.noaa.gov/modelinfo/
+ - public available data: yes
+ - ftp download: ftp://ftpprd.ncep.noaa.gov/pub/data/nccf/com/nam/prod
+ - Lambert Conformal
+ - Mean sea level pressure (ETA Model Reduction)
+ - Base time: 2006-07-27 00:00 (UTC)
+ - Forecast time: 2006-07-27 06:00 (UTC)
+ 
+ Sample file: S_OSI_FRA_NOAA_NARSSTMNOR_F_200607201000Z.grb
+ - Website: http://www.osi-saf.org/
+ - public available data: no
+ - Polar Stereo
+ - BMS included
+ - Sea Surface Temperature (Satelite)
+ - Base time: 2006-07-20 14:00 (UTC)
+ 
+    
